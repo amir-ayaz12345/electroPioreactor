@@ -28,19 +28,39 @@ Following the documented software installation, we were unable to SSH into the A
 <!-- TODO: Insert calibration results | assignee: @Bingqiao @Amir @Teo -->
 
 ## Media
-
+Prepared the electrolytically competent media for Cupriavidus metallidurans cultivation based on the Sydow optimised media by Martin (removal of all phosphates)
+-	25ml of meso-nutrients; 1.25ul of trace elements, 85ul of iron sulphate
 Media was made up as per [MediaFormulation.md 2025-11-12](https://github.com/amy-bo/electroPioreactor/blob/ba442ae67962f1ee57649e94e9f0302e0077b55f/Media/MediaFormulation.md)<!-- TODO: insert variations from MediaFormulation.md 2025-11-12 | assignee: @Bingqiao or anyone who noted details -->.
-
-Versions were sterilised by autoclaving and by filter sterilisation.
+NOTE: At that moment, we did not have Manganese sulphate Monohydrate, instead we used 0.317 g of Manganese II Sulphate Tetrahydrate (molar quantity ends up the same)
+Versions were sterilised by autoclaving and by filter sterilisation using a 0.2 micron filter.
 <!-- TODO: define filter type - was it 0.2 μm? what material? | assignee: @Bingqiao or anyone who noted details -->
 <!-- TODO: detail the media discolouration and precipitation issues | assignee: @Bingqiao or anyone who noted details -->
 
 ## Heterotrophic culture
 
-A heterotrophic culture of Cupriavidus metallidurans was established using the above Media plus gluconic acid (sodium salt) as the carbon and energy source.
+A heterotrophic culture of Cupriavidus metallidurans was established using the above Media plus 10 mM final concentration of gluconic acid (sodium salt) as the carbon and energy source.
 
 <!-- TODO: insert results | assignee: @Bingqiao or anyone who noted them -->
 <!-- TODO: Insert section on Autotrophic results and our planned next steps | assignee: @Bingqiao @Amir @Teo -->
+## Heterotrophic growth
+We Inoculated 2x 25ml of media at 30C for 17 hours, heterotrophically
+-	Original liquid culture OD of 0.614
+  -	1st culture final OD of 0.001
+  - 2nd culture final OD of 0.02
+After 17hrs, 30C, 150 RPM:
+
+|Initial OD | After 17 hour |
+|-----------|---------------|
+|0.001|0.160|
+|0.02|1.015|
+
+## Voltage and current analysis 
+Before attempting the autotrophic growth, we measured the current and voltage of each bioreactor at 5%
+
+| test| Pioreactor 1 |	Pioreactor 2 |	Pioreactor 3|	Pioreactor 4|
+|------|-------------|--------------|--------------|-------------|
+| voltage | 3.38 | 3.41	| 3.36	|3.28 |
+| current | 0.012 |	0.012 |	0.012	| 0.012 |
 
 ## Autotrophic culture
 
